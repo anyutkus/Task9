@@ -14,8 +14,6 @@ namespace UsersDb_Core.Configs
             entity.Property(x => x.Id).IsRequired().ValueGeneratedNever();
             entity.HasIndex(x => x.Name).IsUnique();
             entity.Property(x => x.Name).IsRequired().IsUnicode().HasMaxLength(32);
-
-            //entity.HasMany(u=>u.Users).WithMany(r=>r.Roles).IsRe
         }
     }
 }
