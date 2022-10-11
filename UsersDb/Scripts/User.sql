@@ -1,0 +1,22 @@
+INSERT INTO [dbo].[User] ([Id], [Email], [PasswordHash], [FirstName], [LastName], [Status]) 
+VALUES 
+    ('2a4ede88-328f-45ff-afea-80fb66a1cf73', 'mbucklee0@lycos.com', '$2a$04$Jinu4gf/MIp1MCRRxBkD8OQQabxt7E785ZR/NJXWyU8xWY.Sd0MCO', 'Marla', 'Bucklee', 1),
+    ('5f5c49d0-a79e-4af2-88a5-8425b817f53d', 'clerven1@taobao.com', '$2a$04$CYwjF.81.zYKI9NfWrE2VuvyaVdqVexanO0JliuEZOwgqHATwbJ7.', 'Chrissy', 'Lerven', 0),
+    ('52dadedf-61f3-45fd-aa4c-5db1f0f46120', 'jcatlette2@ebay.co.uk', '$2a$04$Mln3ntuoZbUEipvA95g6veIkJdr3ukL7pvkfVYbJJPghI.GHyijzS', 'Jaquith', 'Catlette', 0),
+    ('a00e8efc-fecf-4037-a1b4-458dacc1d245', 'iocullinane3@admin.ch', '$2a$04$bFCHRAzhqJqKKoMPKvX18OArRoLlfucUw30x2QK3N8en5JBjygIHe', 'Inna', 'O''Cullinane', 1),
+    ('90af3ed4-ff2f-461e-9f2e-628625381183', 'vpetrusch4@state.tx.us', '$2a$06$RIrfZcCceCZCi2BdZA9LK.jM4vZmepKq4g8aERfqm3U2RDhPzxUaW', 'Vitoria', 'Petrusch', 1),
+    ('88b1d37e-8de9-45ea-bf4b-a5ac3b3e4a36', 'amayzes5@mozilla.org', '$2a$06$hNABGboejIc6wKdILFVuQuaq1grZP8k1achigd5MqBMCG6m.Z1RGG', 'Arvy', 'Mayzes', 1),
+    ('7e72b8a7-621f-4a0b-9b7e-29dadc2b8408', 'labramovitz6@over-blog.com', '$2a$06$ZEPk1w6z//0fZAi7KYz/cOvbjSQPeJ2GFgBCYH9A.kI5usceDmeou', 'Leonardo', 'Abramovitz', 1),
+    ('9ab89cc2-9923-4344-92e0-dcf5ed9961f8', 'sisted7@theatlantic.com', '$2a$06$QBJQ7uUjFAjfEzyI/6Seg.4VyZP4EOU/Y2f9ZqyO5QhrhKvQvkUou', 'Shayla', 'Isted', 1),
+    ('adb3c508-db7b-443e-bcc6-1d680058b0d0', 'nbines8@bbb.org', '$2a$06$4/Y6Klr0enJd1cQ4uafoAeyz/h2545OoWToWp17cYrGExhSBcOluG', 'Neil', 'Bines', 0),
+    ('f357d048-d015-495d-b75b-90a908453d55', 'tlodwick9@bandcamp.com', '$2a$06$i8VStD.7Fk04ov8JOLQiQ.7zxSiWTXpWocUvxUdhMFCZwcjPDrP9u', 'Tina', 'Lodwick', 0),
+    ('92fd6110-dac9-49aa-ae64-37e03a61d5f8', 'vwilloughwaya@cmu.edu', '$2a$06$a.Kw3QHYlW5Zpc5WrzC0EuGTmlY58C3l/4B6s1hWwUXS1qIrunHN.', 'Vin', 'Willoughway', 0),
+    ('4b5cb1d1-362d-4228-b8df-6e54dbee3b99', 'cresideb@princeton.edu', '$2a$06$hMPbhtIw0sn4U/RLn610gO.9I431C1tfTchtfqoh3Cg5XgCX4cxYO', 'Cami', 'Reside', 0),
+    ('531597fd-59a1-45a6-a7d0-94a87a4247f3', 'cminnockc@mashable.com', '$2a$06$UIDb1N8HQalFHe8KxpwwduONn8U84YHRNOJhPJpd5nO748zk9rXvm', 'Cathrine', 'Minnock', 0),
+    ('16274623-4b1e-4994-bfc0-6af1121276d1', 'lclymod@apple.com', '$2a$06$kSU006aZoKZCmHTapyBTUex3uq1sqDlogDzkmZdZJMrgf7hvNHu9C', 'Lil', 'Clymo', 0),
+    ('50c991e5-aa6b-4ac5-98be-2d82f1f26c94', 'thampsone@dion.ne.jp', '$2a$06$EoB/6v/oTXIS2/OZrqpcxeQHeMxGstDVWglgoAvEEyH81rWk41W12', 'Tymothy', 'Hampson', 0),
+    ('dcd603ff-7109-417f-963d-21ffeed2ee28', 'wdalgarnof@dot.gov', '$2a$06$dzvwS74yPp0MsCfJMIGUQO3rcJkFi9ciHjNtPj7Nng6xTvsWftVDy', 'Win', 'Dalgarno', 1),
+    ('c433f3a5-a95a-497e-a226-73786e4d49da', 'iyareg@msn.com', '$2a$05$ra3GkFzYvHEAhtEcf460Wue7nYwl77OHzFTEhqG1JPlQ7dr6c/UP6', 'Ilise', 'Yare', 0),
+    ('e7a62291-ecc6-4eb8-adaf-2e9e3c1c7344', 'flackintonh@yellowbook.com', '$2a$05$UxmS9.qHsD0sTAI1XqBRo.puqJ.Q4m1FKVNnUaGOnb64zb6ixkcPK', 'Fedora', 'Lackinton', 1),
+    ('00156442-d987-48b6-9a00-cac99554c9ee', 'skobierai@wordpress.org', '$2a$05$XpTaJvzr8RHSQrepPvkPguPZWf7pPVcc024sjgikolQtzeMHj8ox.', 'Say', 'Kobiera', 1),
+    ('71394daf-7227-4af4-9e58-40e92c007983', 'paishj@devhub.com', '$2a$05$QVIMfZm7o94wgMPwbjXQvu.bp8JrQkXv5.Fsz.FS8dpWbdu4EdjGq', 'Penelopa', 'Aish', 0);
