@@ -4,8 +4,8 @@ using System.Text.Json;
 
 namespace Task9._1
 {
-	public class JsonGenerator
-	{
+    public class JsonGenerator
+    {
         public JsonGenerator(DataTable dataTable)
         {
             ArgumentNullException.ThrowIfNull(dataTable, nameof(dataTable));
@@ -18,7 +18,7 @@ namespace Task9._1
 
             var users = new UserData[dataTable.Rows.Count];
             var i = 0;
-            foreach(DataRow row in dataTable.Rows)
+            foreach (DataRow row in dataTable.Rows)
             {
                 users[i] = (UserData)row;
                 i++;

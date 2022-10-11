@@ -3,9 +3,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace UsersDb_Core.Entities
 {
-	public sealed class Role : Entity<int>
-	{
-		public string Name { get; set; }
+    public sealed class Role : Entity<int>
+    {
+        public string Name { get; set; }
 
         public ICollection<User> Users { get; set; }
 
